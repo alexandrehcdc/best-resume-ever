@@ -1,92 +1,110 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
-  middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+  first: Alexandre
+  middle: H.
+  last: Cavalcanti
+about: I"m a simple person that likes backend and mobile development.
+       My main goal at the moment is to get more experience as a developer and bring value to the
+       projects that I work on.
 position: Software Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1996
+  location: Maceió, AL, Brazil
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Stant
+  position: iOS Developer
+  timeperiod: 2017 - Present
+  description: Responsible by the maintenance and development of the applications, which executes the
+               tracking of several steps of a construction site. Started as a trainee, currently being the 
+               squad tech manager.
+  website: http://www.stant.com.br/
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: SESI/FIEA - Casa da Industria
+  position: Software Developer
+  timeperiod: 2018
+  description: Worked as full stack developer, mostly with javascript, database queries and form/reports
+               generation inside their BPM platform, which executes every process inside the 
+               organization, both internal and external.
+  website: http://al.sesi.org.br/
 
-- company: Company C
+- company: IFAL's Rectory
+  position: Backend Developer
+  timeperiod: 2016 - 2017
+  description: Backend development on Comunica project, which executed the selection and
+               ranking of research projects of the federal institutes campuses of Alagoas.
+  website: https://comunica.ifal.edu.br
+
+- company: Dental Master
   position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+  timeperiod: 2016
+  description: Responsible by Customer Service, infrastructure maintenance and partial 
+               development of the local company software.
+  website: http://master.dental
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
-
 - degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+  timeperiod: 2014 - Present
+  description: Major in Information Systems, IFAL (Federal Institute of Alagoas), Maceió, BRA.
+
+- degree: Technical
+  timeperiod: 2011 - 2013
+  description: Technical course in Computer Networking, EBEP/SESI-SENAI, Maceió, BRA.
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
+- name: iOS/Swift
   level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
+- name: Javascript/Node.js
   level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
+- name: SQLite
   level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
+- name: MongoDB
+  level: 93
+- name: Software Architecture
   level: 70
-- name: Docker
+- name: Mobile dev
   level: 99
+- name: Backend dev
+  level: 99
+- name: Git/Gitflow
+  level: 80  
+- name: REST
+  level: 80
+- name: Agile
+  level: 80
+
 knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
   (English and Klingon).
 
-projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+# projects:
+# - name: best-resume-ever
+#   platform: Vue
+#   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
+#   url: https://github.com/salomonelli/best-resume-ever
 
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
+# hobbies:
+# - name: Video Games
+#   iconClass: fa fa-gamepad
+#   url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+# - name: Drawing
+#   iconClass: fa fa-pencil
+#   url: https://example.com
 
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+# contributions:
+# - name: best-resume-ever
+#   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+#   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: alexandrehcdc@gmail.com
+  # phone: 0123 456789
+  # street: 1234 Broadway 
+  city: Maceió, AL, Brazil
+  linkedin: alexandrehcdc
+  github: alexandrehcdc
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `

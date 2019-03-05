@@ -21,24 +21,29 @@
       <div class="multi-line-txt">
         {{ person.knowledge }}
       </div>
-
+<!-- 
       <a :href="contactLinks.email">
         <div class="block-marged txt-full-white">
+          <i class="fa fa-at contact-icon"></i>
+          {{ person.contact.email }}
+        </div>
+      </a> -->
+
+      <div class="social-container">
+
+        <a :href="contactLinks.email">
+        <div class="block-marged txt-full-white">
+          <i class="fa fa-at contact-icon"></i>
           {{ person.contact.email }}
         </div>
       </a>
-
-      <div class="block-marged txt-full-white">
-        {{ person.contact.phone }}
-      </div>
-
-      <div class="social-container">
-        <a v-if="person.contact.website"
-          :href="person.contact.website">
+      
+        <a v-if="person.contact.linkedin"
+          :href="person.contact.linkedin">
 
           <div class="block-marged txt-full-white">
-            <i class="fa fa-globe contact-icon"></i>
-            {{ person.contact.website }}
+            <i class="fa fa-linkedin contact-icon"></i>
+            {{ person.contact.linkedin }}
           </div>
         </a>
 
@@ -209,7 +214,7 @@ export default Vue.component(name, getVueOptions(name));
 
 <style lang="less" scoped>
 
-@accent-color: #A800FA;
+@accent-color: #44659b;
 
 .resume {
   display: flex;
@@ -335,7 +340,7 @@ a {
 }
 
 .social-container {
-  margin-top: 30px;
+  // margin-top: 30px;
   margin-bottom: 30px;
 }
 
