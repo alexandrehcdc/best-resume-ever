@@ -3,9 +3,9 @@ name:
   first: Alexandre
   middle: H.
   last: Cavalcanti
-about: I"m a simple person that likes backend and mobile development.
-       My main goal at the moment is to get more experience as a developer and bring value to the
-       projects that I work on.
+about: Enjoys agile backend and mobile development.
+       Main goal at the moment is to get more experience as a developer and bring value to the
+       projects.
 position: Software Developer
 
 birth:
@@ -17,8 +17,8 @@ experience:
   position: iOS Developer
   timeperiod: 2017 - Present
   description: Responsible by the maintenance and development of the applications, which executes the
-               tracking of several steps of a construction site. Started as a trainee, currently being the 
-               squad tech manager.
+               tracking of several steps of a construction site. Worked with online/offline apps with synchronization.
+               Started as a trainee, currently being the iOS squad tech lead.
   website: http://www.stant.com.br/
 
 - company: SESI/FIEA - Casa da Industria
@@ -39,14 +39,18 @@ experience:
 - company: Dental Master
   position: Trainee
   timeperiod: 2016
-  description: Responsible by Customer Service, infrastructure maintenance and partial 
+  description: Responsible by Customer Service, infrastructure maintenance and 
                development of the local company software.
   website: http://master.dental
 
 education:
 - degree: Bachelor of Science
   timeperiod: 2014 - Present
-  description: Major in Information Systems, IFAL (Federal Institute of Alagoas), Maceió, BRA.
+  description: Degree in Information Systems, IFAL (Federal Institute of Alagoas), Maceió, BRA.
+
+- degree: English course
+  timeperiod: 2017 (1 month)
+  description: Pre-Advanced english certificate, ECLA, Santa Monica/LA, USA.
 
 - degree: Technical
   timeperiod: 2011 - 2013
@@ -62,7 +66,9 @@ skills:
   level: 60
 - name: MongoDB
   level: 93
-- name: Software Architecture
+- name: Clean Architecture
+  level: 70
+- name: MVC/MVP
   level: 70
 - name: Mobile dev
   level: 99
@@ -70,13 +76,10 @@ skills:
   level: 99
 - name: Git/Gitflow
   level: 80  
-- name: REST
-  level: 80
-- name: Agile
-  level: 80
+- name: Networking
+  level: 99
 
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+knowledge: Native spoken language is Portuguese-BR with English (B2/C1) being the secondary language.
 
 # projects:
 # - name: best-resume-ever

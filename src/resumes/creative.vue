@@ -21,6 +21,8 @@
       <div class="multi-line-txt">
         {{ person.knowledge }}
       </div>
+
+      
 <!-- 
       <a :href="contactLinks.email">
         <div class="block-marged txt-full-white">
@@ -39,10 +41,11 @@
       </a>
       
         <a v-if="person.contact.linkedin"
-          :href="person.contact.linkedin">
+          :href="contactLinks.linkedin"
+          class="external-link">
 
           <div class="block-marged txt-full-white">
-            <i class="fa fa-linkedin contact-icon"></i>
+          <i class="fa fa-linkedin contact-icon"></i>
             {{ person.contact.linkedin }}
           </div>
         </a>
@@ -120,6 +123,25 @@
         </div>
       </div>
 
+      <div v-if="person.skills"
+        class="skills-section section">
+        <div class="icon">
+          <i class="material-icons">done_all</i>
+          <span class="section-headline"> {{ lang.skills }} </span>
+        </div>
+
+        <div class="section-content-grid">
+          <a v-for="(skill, index) in person.skills" :key="index"
+            class="grid-item"
+            :href="skill.url">
+
+            <i v-if="skill.iconClass" :class="'lang-icon ' + skill.iconClass"></i>
+
+            <span v-else class="squarred-grid-item"> {{ skill.name }} </span>
+          </a>
+        </div>
+      </div>
+
       <div class="education-section section">
         <div class="icon">
           <i class="material-icons">school</i>
@@ -155,25 +177,6 @@
             <span class="section-content__subheader">{{ project.platform }}</span>
             <span class="section-content__text"> {{ project.description }} </span>
             <span class="section-content__text--light"> {{ project.url }} </span>
-          </a>
-        </div>
-      </div>
-
-      <div v-if="person.skills"
-        class="skills-section section">
-        <div class="icon">
-          <i class="material-icons">done_all</i>
-          <span class="section-headline"> {{ lang.skills }} </span>
-        </div>
-
-        <div class="section-content-grid">
-          <a v-for="(skill, index) in person.skills" :key="index"
-            class="grid-item"
-            :href="skill.url">
-
-            <i v-if="skill.iconClass" :class="'lang-icon ' + skill.iconClass"></i>
-
-            <span v-else class="squarred-grid-item"> {{ skill.name }} </span>
           </a>
         </div>
       </div>

@@ -47,9 +47,9 @@
           </div>
 
           <div class="section-content section-content--plain">
-            <div class="section-link">
+            <!-- <div class="section-link">
               <i class="section-link__icon material-icons">business</i>{{ person.contact.street }}
-            </div>
+            </div> -->
 
             <a
               class="section-link"
@@ -57,9 +57,9 @@
               <i class="section-link__icon material-icons">mail</i>{{ person.contact.email }}
             </a>
 
-            <div class="section-link">
+            <!-- <div class="section-link">
               <i class="section-link__icon material-icons">phone</i>{{ person.contact.phone }}
-            </div>
+            </div> -->
 
             <a
               v-if="person.contact.website"
@@ -179,7 +179,7 @@
       </div>
     </div>
 
-    <img class="picture"/>
+    <!-- <img class="picture"/> -->
   </div>
 </template>
 
