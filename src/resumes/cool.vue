@@ -194,7 +194,7 @@ export default Vue.component(name, getVueOptions(name));
 
 <style lang="less" scoped>
 @accent-color: #34495E;
-@banner-color: #42b883;
+@banner-color: #3AAFB9;
 @banner-height: 120px;
 @picture-size: 120px;
 @picture-offset: 35px;
@@ -322,26 +322,31 @@ a {
     display: block;
     font-size: 1.1em;
     font-weight: 500;
+    padding: 2px;
   }
 
   &__subheader {
     display: block;
     font-weight: 400;
+    padding: 2px;
   }
 
   &__plain,
   &__text {
     display: block;
     font-size: 12px;
+    padding: 2px;
 
     &--light {
       font-size: 12px;
+      padding: 2px;
     }
   }
 
   &__plain {
     display: inline;
     font-weight: 300;
+    padding: 2px;
   }
 
   &__item-grid {

@@ -64,11 +64,9 @@ skills:
   level: 97
 - name: SQLite
   level: 60
-- name: MongoDB
+- name: MongoDB/Mongoose
   level: 93
-- name: Clean Architecture
-  level: 70
-- name: MVC/MVP
+- name: MVC/MVP/Clean/Hex Architecture
   level: 70
 - name: Mobile dev
   level: 99
